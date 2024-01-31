@@ -40,5 +40,5 @@ Condition:
 
 ## code
 
-https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/concurrency/flowcontrol
+https://github.com/zljin/coreJava/tree/develop/src/main/java/com/zou/concurrency/flowcontrol
 

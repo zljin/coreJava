@@ -5,7 +5,7 @@ tags: Java语言
 categories: java
 ---
 
-> 代码路径：https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/corejava
+> 代码路径：https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/corejava
 
 #### 基础语法
 1. 关键字：定义的一些具有特殊用途的单词

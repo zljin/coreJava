@@ -22,7 +22,7 @@ spring中的sample实例：
 org.springframework.format.datetime.standard.DateTimeContextHolder
 org.springframework.web.context.request.RequestContextHolder
 
-代码sample如下：https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/concurrency/threadlocal
+代码sample如下：https://github.com/zljin/coreJava/tree/develop/src/main/java/com/zou/concurrency/threadlocal
 
 
 
@@ -30,7 +30,7 @@ org.springframework.web.context.request.RequestContextHolder
 
 > 每个ThreadLocal都会持有一个ThreadLocalMap的成员变量，里面有entry数组存放值
 
-![](https://github.com/zljin/hexo/blob/master/image_address/threadlocal1.png?raw=true)
+![](https://github.com/zljin/hexo/blob/develop/image_address/threadlocal1.png?raw=true)
 
 ```java
 static class ThreadLocalMap {

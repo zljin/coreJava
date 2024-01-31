@@ -7,9 +7,9 @@ categories: 并发编程工具
 
 # code
 
-https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/concurrency
+https://github.com/zljin/coreJava/tree/develop/src/main/java/com/zou/concurrency
 
-https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/corejava/multithread
+https://github.com/zljin/coreJava/tree/develop/src/main/java/com/zou/corejava/multithread
 
 
 # FYI
@@ -59,7 +59,7 @@ https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/corejava/mul
 
 ## 多线程编写原则
 
-![](https://github.com/zljin/hexo/blob/master/image_address/concurrent2.png?raw=true)
+![](https://github.com/zljin/hexo/blob/develop/image_address/concurrent2.png?raw=true)
 
 ```
 1. 原子性：一组操作要么全部成功 or 全部失败
@@ -77,7 +77,7 @@ Happens-Before 规则(保证多线程执行结果不变)可以解决有序性问
 ```
 ## 线程生命周期
 
-![](https://github.com/zljin/hexo/blob/master/image_address/concurrent1.png?raw=true)
+![](https://github.com/zljin/hexo/blob/develop/image_address/concurrent1.png?raw=true)
 ```
 1.新建(new)
     新创建一个线程对象

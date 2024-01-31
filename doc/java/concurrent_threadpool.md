@@ -9,7 +9,7 @@ categories: 并发编程工具
 
 代码路径：
 > https://github.com/zljin/coreJava/blob/dailyCode/src/main/java/com/zou/corejava/multithread/ThreadPoolManager.java <br>
-> https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/concurrency/threadpool
+> https://github.com/zljin/coreJava/tree/develop/src/main/java/com/zou/concurrency/threadpool
 
 
 

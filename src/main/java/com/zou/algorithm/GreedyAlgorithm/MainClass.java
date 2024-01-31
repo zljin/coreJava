@@ -7,7 +7,7 @@ import java.util.Arrays;
  *      优先满足最小的条件，通过局部最优解达到全局最优解
  *      找到其最优的子结构
  *
- * https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E8%B4%AA%E5%BF%83%E6%80%9D%E6%83%B3.md
+ * https://github.com/CyC2018/CS-Notes/blob/develop/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E8%B4%AA%E5%BF%83%E6%80%9D%E6%83%B3.md
  *
  */
 public class MainClass {

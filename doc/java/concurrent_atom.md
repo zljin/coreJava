@@ -12,18 +12,18 @@ categories: 并发编程工具
 ## 原子类的六大分类
 
 基本类型原子类：AtomicInteger
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/atomic/AtomicIntegerDemo1.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/atomic/AtomicIntegerDemo1.java
 
 原子数组类： AtomicIntegerArray
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/atomic/AtomicArrayDemo.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/atomic/AtomicArrayDemo.java
 
 
 引用原子类：AtomicReference （让一个对象保持原子性）
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/spinlock/SpinLock.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/spinlock/SpinLock.java
 
 
 升级类型原子类：对普通的变量进行升级为原子类，适合复杂的对象，且更新频率较低的场景 AtomicIntegerFieldUpdater
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/atomic/AtomicIntegerFieldUpdaterDemo.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/atomic/AtomicIntegerFieldUpdaterDemo.java
 
 
 Adder累加器类：
@@ -60,11 +60,11 @@ public long sum() {
 与AtomicLong对比：
 AtomicLong具有CAS方法的独特性，且在线程激烈的竞争下，LongAdder吞吐量高很多且更占空间，适合大量的统计和计数场景
 
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/atomic/LongAdderDemo.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/atomic/LongAdderDemo.java
 
 
 Accumulator累加器类
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/atomic/LongAccumulatorDemo.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/atomic/LongAccumulatorDemo.java
 
 
 ## CAS源码剖析

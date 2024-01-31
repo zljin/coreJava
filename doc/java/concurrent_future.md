@@ -14,7 +14,7 @@ Callable类似于Runnble,被其他线程执行的任务，
 且实现call()方法且有返回值
 
 Runnble的缺陷，如无返回值，在run方法中无法抛出checked Exception.
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/future/RunnableCantThrowsException.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/future/RunnableCantThrowsException.java
 
 
 ## Future
@@ -38,16 +38,16 @@ call()未执行完毕前，调用get()会阻塞线程，直至返回结果后，
 
 ### 线程池submit方法返回Future对象
 
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/future/OneFuture.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/future/OneFuture.java
 
 批量执行演示
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/future/MultiFutures.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/future/MultiFutures.java
 
 异常展示
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/future/GetException.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/future/GetException.java
 
 超时中断
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/future/Timeout.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/future/Timeout.java
 
 
 ### 用FutureTask创建future
@@ -68,7 +68,7 @@ public interface RunnableFuture<V> extends Runnable, Future<V> {
 }
 ```
 
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/future/FutureTaskDemo.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/future/FutureTaskDemo.java
 
 
 ## Future的注意点

@@ -25,7 +25,7 @@ lock():最普通的获取锁，最好的实践就是try catch finally,在异常�
 tryLock():比lock更好，可中断，不会发生死锁永久等待的问题
 
 
-sample: https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/concurrency/lock/lock
+sample: https://github.com/zljin/coreJava/tree/develop/src/main/java/com/zou/concurrency/lock/lock
 
 
 ## 锁的可见性保证
@@ -35,7 +35,7 @@ sample: https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/conc
 
 ## 锁的分类
 
-![](https://github.com/zljin/hexo/blob/master/image_address/lock1.png?raw=true)
+![](https://github.com/zljin/hexo/blob/develop/image_address/lock1.png?raw=true)
 
 ### 乐观锁与悲观锁
 
@@ -67,7 +67,7 @@ sample: https://github.com/zljin/coreJava/tree/master/src/main/java/com/zou/conc
         适合读多的场景
 ```
 
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/reentrantlock/PessimismOptimismLock.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/reentrantlock/PessimismOptimismLock.java
 
 ### 可重入锁(也叫递归锁)
 
@@ -79,8 +79,8 @@ sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/conc
 好处：避免死锁，减少频繁解锁的流程
 
 sample: 
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/reentrantlock/GetHoldCount.java
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/reentrantlock/RecursionDemo.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/reentrantlock/GetHoldCount.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/reentrantlock/RecursionDemo.java
 
 
 > 可重入锁源码分析 
@@ -151,7 +151,7 @@ protected boolean tryRelease(int unused) {
 
 非公平可能会导致饥饿线程
 
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/reentrantlock/FairLock.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/reentrantlock/FairLock.java
 
 ### 共享锁和排他锁
 
@@ -168,7 +168,7 @@ sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/conc
 把获取写锁理解为 把读写锁进行写锁定
 
 基本用法：
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/readwrite/CinemaReadWrite.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/readwrite/CinemaReadWrite.java
 
 
 读写锁的交互
@@ -198,7 +198,7 @@ static final class NonfairSync extends Sync {
 
 
 下面插队策略的模拟，sample:
-https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/readwrite/NonfairBargeDemo.java
+https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/readwrite/NonfairBargeDemo.java
 
 
 
@@ -208,7 +208,7 @@ https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/
 减少锁的创建和关闭消耗
 
 演示ReentrantReadWriteLock可以降级，不能升级：
-sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/readwrite/Upgrading.java
+sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/readwrite/Upgrading.java
 
 为什么不支持锁升级，这容易带来死锁，如果两个线程都要要升级，都要等待对方解锁
 只有保证每次只有一个线程升级，即可使用锁的升级
@@ -247,7 +247,7 @@ public final int getAndAddInt(Object var1, long var2, int var4) {
 }
 ```
 
-自定义自旋锁sample: https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/lock/spinlock/SpinLock.java
+自定义自旋锁sample: https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/lock/spinlock/SpinLock.java
 
 使用场景：
 适用于多核服务器，且并发度不高，且适用与临界区很小(即线程拿到锁后释放的时间小)的情况

@@ -175,5 +175,5 @@ protected final boolean tryRelease(int releases) {
 
 ## DIY一次性闸门
 
-> https://github.com/zljin/coreJava/blob/master/src/main/java/com/zou/concurrency/aqs/OneShotLatch.java
+> https://github.com/zljin/coreJava/blob/develop/src/main/java/com/zou/concurrency/aqs/OneShotLatch.java
 
