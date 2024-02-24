@@ -1,7 +1,9 @@
 package com.zou.pojo;
 
+import lombok.Data;
 
-public class Person {
+@Data
+public class Person implements Comparable<Person> {
 
     private String name;
     private int age;
@@ -22,19 +24,10 @@ public class Person {
         System.out.println(str + " static run....");
     }
 
-    public String getName() {
-        return name;
+    @Override
+    public int compareTo(Person o) {
+        int nameResult = this.name.compareTo(o.name);
+        return nameResult == 0 ? this.age - o.age : nameResult;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 }
