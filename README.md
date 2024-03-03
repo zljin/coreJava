@@ -1,11 +1,25 @@
 
-## 题库
+## intro
 
-算法类：
+> 代码练习库
 
-https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md
+## 面试资料
+
+https://github.com/CyC2018/CS-Notes
+
+https://github.com/Snailclimb/JavaGuide
+
+https://github.com/doocs/advanced-java
+
+https://pdai.tech/
+
+https://thinkwon.blog.csdn.net/article/details/104397516
 
 
-SQL类：
+## 学习
 
-https://github.com/CyC2018/CS-Notes/blob/master/notes/SQL%20%E7%BB%83%E4%B9%A0.md
+[程序羊教程](https://www.r2coding.com/#/README)
+
+[慕课文档教程](https://www.imooc.com/wiki/)
+
+[java电子书](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-zh.md#java)
